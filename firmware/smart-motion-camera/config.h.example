@@ -1,0 +1,11 @@
+// config.h.example
+// Kopiere diese Datei zu config.h und fülle deine Daten ein
+
+#define WIFI_SSID "venu"
+#define WIFI_PASSWORD "hallo123"
+
+#define SUPABASE_URL "https://syhobwvjercglujexzlx.supabase.co"
+#define SUPABASE_ANON_KEY "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN5aG9id3ZqZXJjZ2x1amV4emx4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc2NTE0ODEsImV4cCI6MjA4MzIyNzQ4MX0.eKgYyjIjAe7U233_2iCG3dDfHIx46Mgp2qRgouf-pso"
+#define SUPABASE_BUCKET "motion-photos"
+
+#define PIR_PIN 13

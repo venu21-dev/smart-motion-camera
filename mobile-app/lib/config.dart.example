@@ -1,0 +1,8 @@
+// config.dart.example
+// Kopiere diese Datei zu config.dart und fülle deine Daten ein
+
+class SupabaseConfig {
+  static const String url = 'https://syhobwvjercglujexzlx.supabase.co';
+  static const String anonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN5aG9id3ZqZXJjZ2x1amV4emx4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc2NTE0ODEsImV4cCI6MjA4MzIyNzQ4MX0.eKgYyjIjAe7U233_2iCG3dDfHIx46Mgp2qRgouf-pso';
+  static const String bucket = 'motion-photos';
+}
