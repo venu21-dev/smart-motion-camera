@@ -114,3 +114,4 @@ Thumbs.db
 # Test data
 test_images/
 test_data/
+mobile_app/lib/config.dart
