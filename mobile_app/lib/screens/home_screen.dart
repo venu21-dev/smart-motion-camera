@@ -3,6 +3,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:intl/intl.dart';
 import '../models/photo.dart';
 import '../services/supabase_service.dart';
+import '../services/background_service.dart';
 import 'detail_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -21,6 +22,13 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     _loadPhotos();
+    BackgroundService.start();
+  }
+
+  @override
+  void dispose() {
+    BackgroundService.stop();
+    super.dispose();
   }
 
   Future<void> _loadPhotos() async {

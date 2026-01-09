@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'services/supabase_service.dart';
+import 'services/notification_service.dart';
 import 'screens/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await SupabaseService.initialize();
+  await NotificationService.initialize();
 
   runApp(const MotionCameraApp());
 }
